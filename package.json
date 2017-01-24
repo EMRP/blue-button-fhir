@@ -1,6 +1,6 @@
 {
-    "name": "blue-button-fhir",
-    "version": "1.6.0-beta.2",
+    "name": "@emrp/blue-button-fhir",
+    "version": "1.6.0-beta.3",
     "description": "Blue Button FHIR to Model Translator",
     "main": "./index.js",
     "directories": {
@@ -11,13 +11,16 @@
         "verify": "grunt"
     },
     "author": "Dmitry Kachaev <dmitry@amida-tech.com>",
-    "contributors": [{
-        "name": "Matthew McCall",
-        "email": "matt@amida-tech.com"
-    }, {
-        "name": "Afsin Ustundag",
-        "email": "afsin.ustundag@us.pwc.com"
-    }],
+    "contributors": [
+        {
+            "name": "Matthew McCall",
+            "email": "matt@amida-tech.com"
+        },
+        {
+            "name": "Afsin Ustundag",
+            "email": "afsin.ustundag@us.pwc.com"
+        }
+    ],
     "license": "Apache-2.0",
     "engines": {
         "node": ">= 0.10.0"
@@ -25,7 +28,6 @@
     "dependencies": {
         "blue-button-meta": "~1.5.0",
         "blue-button-util": "^1.6.0-beta",
-        "bunyan": "~1.2.3",
         "jsonapter": "0.0.1",
         "jsonave": "0.0.2",
         "lodash": "^3.9.3"
